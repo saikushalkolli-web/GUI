@@ -1,0 +1,16 @@
+import tkinter as ui
+window=ui.Tk()
+window.geometry("1920x1080")
+window.title("Testing GUI")
+text=ui.Label(window,text="Enter the password.")
+text.pack()
+password=ui.Entry()
+password.pack()
+Button=ui.Button(window,text="Click here")
+Button.pack(padx=200,pady=10)
+label=ui.Label(window,text="Hello There!!")
+label.pack()
+box=ui.Text(window)
+box.pack()
+
+window.mainloop()
