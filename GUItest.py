@@ -1,3 +1,4 @@
+#My first ever GUI push
 import tkinter as ui
 window=ui.Tk()
 window.geometry("1920x1080")
